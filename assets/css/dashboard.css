@@ -1,0 +1,57 @@
+/*!
+ * Информационная панель (Dashboard).
+ *
+ * Модуль "Информационная панель".
+ * 
+ * Copyright 2015 Вeб-студия GearMagic
+ * Copyright Anton Tivonenko <anton.tivonenko@gmail.com>
+ * https://gearmagic.ru/license/
+ */
+
+ #gm-dashboard-tabs-body { background: #e7e7e7; }
+
+/**
+ * Кнопка панели вкладок (рабочии столы).
+ */
+.gm-dashboard__tab-button {
+    background-color: #e1e1e1;
+    border-radius: 3px 3px 0 0;
+    margin-left: 1px;
+ }
+/* текст кнопки */
+.gm-dashboard__tab-button .x-btn-inner-default-small { color: #848484; }
+/* курсор над кнопкой */
+.gm-dashboard__tab-button.x-btn-over { background-color: #c1cfc8; }
+/* курсор над кнопкой (текст) */
+.gm-dashboard__tab-button.x-btn-over .x-btn-inner-default-small { color: #217346;}
+/* клик на нкопке или меню кнопки*/
+.gm-dashboard__tab-button.x-btn.x-btn-menu-active.x-btn-default-small,
+.gm-dashboard__tab-button.x-btn-focus.x-btn-pressed.x-btn-default-small {
+   background-color: #c1cfc8;
+   box-shadow: none;
+   background-image: none;
+}
+/* кнопка осталась в фокусе */
+.gm-dashboard__tab-button.x-btn-focus.x-btn-default-small {
+   background-color: #c1cfc8;
+   box-shadow: none;
+   background-image: none;
+}
+
+
+/**
+ * Разделитель панели вкладок (рабочии столы).
+ */
+.gm-dashboard__tab-separator.x-menu-item-default.x-menu-item-separator {
+   background-color: transparent;
+}
+
+
+/**
+ * Панель вкладок (рабочии столы).
+ */
+.gm-dashboard-tabs .x-tab-bar-top > .x-tab-bar-strip-default { height: 2px; }
+/* Значок "Видежты" */
+.gm-dashboard__icon-widgets { background-image: url("../images/icon-dashboard_widgets.svg"); }
+/* Значок "Настройки" */
+.gm-dashboard__icon-settings { background-image: url("../images/icon-dashboard_settings.svg"); }
