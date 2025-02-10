@@ -16,6 +16,6 @@ $ composer require gearmagicru/gm-be-dashboard
     "gearmagicru/gm-be-dashboard": "*"
 }
 ```
-или скачать архив на [странице виджета](https://apps.gearmagic.ru/component/gm-be-dashboard) в каталоге приложений GearMagic.
+или скачать архив на [странице модуля](https://apps.gearmagic.ru/component/gm-be-dashboard) в каталоге приложений GearMagic.
 
 После добавления модуля в проект, воспользуйтесь Панелью управления GM Panel для установки его в редакцию вашего веб-приложения.
