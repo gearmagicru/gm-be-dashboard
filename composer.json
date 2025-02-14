@@ -1,7 +1,7 @@
 {
     "name": "gearmagicru/gm-be-dashboard",
     "description": "Control Panel module \"Dashboard\"",
-    "keywords": ["gearmagic", "gm-panel", "gm-component", "gm-module", "module", "dashboard"]
+    "keywords": ["gearmagic", "gm-panel", "gm-component", "gm-module", "module", "dashboard"],
     "homepage": "https://apps.gearmagic.ru/component/gm-be-dashboard",
     "type": "component",
     "license": "MIT",
